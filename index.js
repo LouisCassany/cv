@@ -1,4 +1,9 @@
 import { writeFileSync } from "fs";
+import fs from "fs";
+
+const cv = JSON.parse(fs.readFileSync("./cv.json", "utf-8"));
+
+console.log(cv);
 
 const html = `
 <!DOCTYPE html>

@@ -1,20 +1,39 @@
 [
-    {
+  {
+    "title": {
+      "fr": "Formation",
+      "en": "Education"
+    },
+    "items": [
+      {
+        "date": "2019-2022",
         "title": {
-            "en": "Education",
-            "fr": "Éducation"
+          "fr": "Doctorat en automatique",
+          "en": "PhD student in control systems engineering"
         },
-        "items": [
-            {
-                "date":{
-                    "en": "01-12-2022 to present day",
-                    "fr": "01-12-2022 à aujourd'hui"
-                },
-                "title":{
-                    "en": "Automation engineer",
-                    "fr": "Ingénieur en automatique"
-                } 
-            }
+        "subtitle": {
+          "fr": "Modélisation et régulation de la glycémie pour le diabète de type 1",
+          "en": "Glycemia modeling and regulation in type-1 diabetes"
+        },
+        "subsubtitle": {
+          "fr": "Université de Bordeaux et laboratoire IMS",
+          "en": "Bordeaux University and IMS laboratory"
+        },
+        "list": [
+          {
+            "fr": "Contrôle robuste",
+            "en": "Robust control"
+          },
+          {
+            "fr": "Simulations pré-cliniques",
+            "en": "In silico simulations"
+          },
+          {
+            "fr": "Modèle métabolique incertain d'un patient diabétique de type 1",
+            "en": "Uncertain metabolic models of type-1 diabetes patients"
+          }
         ]
-    }
+      }
+    ]
+  }
 ]
