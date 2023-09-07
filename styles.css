@@ -2,22 +2,19 @@ body {
   font-family: "Computer Modern Serif", serif;
 }
 
-@media print
-{
-    @page
-    {
-	      margin: 0;
-	      size: A4;
-    }
-    body
-    {
-	      zoom: 50%;
-	      margin: 1.4cm;
-        margin-top: 1.5cm;
-        margin-bottom: 0;
-    }
-    nav
-    {
-	      display: none;
-    }
+@media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+  body {
+    /* width: 21cm;
+    height: 29.4cm;
+    margin: 1.4cm;
+    margin-top: 1.5cm;
+    margin-bottom: 0; */
+  }
+  nav {
+    display: none;
+  }
 }

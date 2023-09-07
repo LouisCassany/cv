@@ -6,33 +6,156 @@
     },
     "items": [
       {
-        "date": "2019-2022",
+        "date": {
+          "fr": "2019-2022",
+          "en": "2019-2022"
+        },
+        "location": {
+          "fr": "Université de Bordeaux - laboratoire IMS",
+          "en": "Bordeaux University - IMS laboratory"
+        },
         "title": {
           "fr": "Doctorat en automatique",
-          "en": "PhD student in control systems engineering"
+          "en": "PhD in control engineering"
         },
         "subtitle": {
-          "fr": "Modélisation et régulation de la glycémie pour le diabète de type 1",
-          "en": "Glycemia modeling and regulation in type-1 diabetes"
+          "fr": "Modélisation et régulation de la glycémie pour le diabète de type 1.",
+          "en": "Glycemia modeling and regulation in type-1 diabetes."
         },
-        "subsubtitle": {
-          "fr": "Université de Bordeaux et laboratoire IMS",
-          "en": "Bordeaux University and IMS laboratory"
+        "list": {
+          "fr": ["Contrôle robuste", "Simulations pré-cliniques", "Modèles métaboliques incertains", "Analyses pires-cas"],
+          "en": ["Robust control", "In silico simulations", "Uncertain metabolic models", "Analyse pires-cas"]
+        }
+      },
+      {
+        "date": {
+          "fr": "2016-2018",
+          "en": "2016-2018"
         },
-        "list": [
-          {
-            "fr": "Contrôle robuste",
-            "en": "Robust control"
-          },
-          {
-            "fr": "Simulations pré-cliniques",
-            "en": "In silico simulations"
-          },
-          {
-            "fr": "Modèle métabolique incertain d'un patient diabétique de type 1",
-            "en": "Uncertain metabolic models of type-1 diabetes patients"
-          }
-        ]
+        "location": {
+          "fr": "Université de Bordeaux",
+          "en": "Bordeaux University"
+        },
+        "title": {
+          "fr": "Master AM2AS",
+          "en": "AM2AS master"
+        },
+        "subtitle": {
+          "fr": "Automatique et Mécatronique pour l'Automobile, l'Aéronautique et le Spatial",
+          "en": "Automatic controls and Mechatronics applied for Automotive, Aeronautics and Space sectors."
+        }
+      },
+      {
+        "date": {
+          "fr": "2015-2016",
+          "en": "2015-2016"
+        },
+        "location": {
+          "fr": "Université de Bordeaux",
+          "en": "Bordeaux University"
+        },
+        "title": {
+          "fr": "License EEA",
+          "en": "EEA bachelor's degree"
+        },
+        "subtitle": {
+          "fr": "Électronique, Életrotechnique et Automatique.",
+          "en": "Electrical engineering and automatic control."
+        }
+      },
+      {
+        "date": {
+          "fr": "2013-2015",
+          "en": "2013-2015"
+        },
+        "location": {
+          "fr": "Université de Bordeaux",
+          "en": "Bordeaux University"
+        },
+        "title": {
+          "fr": "DUT GEII",
+          "en": "GEII technical diploma"
+        },
+        "subtitle": {
+          "fr": "Génie Électrique et Informatique Industrielle",
+          "en": "Electrical engineering and industrial computing"
+        }
+      }
+    ]
+  },
+  {
+    "title": {
+      "fr": "Expérience profesionelle",
+      "en": "Professional experience"
+    },
+    "items": [
+      {
+        "date": {
+          "fr": "déc 2022",
+          "en": "dec 2022 - now"
+        },
+        "location": {
+          "fr": "Beyond the Sea",
+          "en": "Beyond the Sea"
+        },
+        "title": {
+          "fr": "Ingénieur en automatique",
+          "en": "Control engineer"
+        },
+        "subtitle": {
+          "fr": "Modélisation et contrôle d'une aile de kite destinée à la traction de navires.",
+          "en": "Modelisation and control of a kite destined for boat traction."
+        },
+        "list": {
+          "fr": ["Contrôle commande", "Gestion de base de données", "Mesures expérimentales", "Interfaces WEB", "Électronique embarquée"],
+          "en": ["System control", "Database management", "Experimental measurements", "WEB interfaces", "onboard electronics"]
+        }
+      },
+      {
+        "date": {
+          "fr": "2020-2022",
+          "en": "2020-2022"
+        },
+        "location": {
+          "fr": "Université de Bordeaux, 64h par année",
+          "en": "Bordeaux university, 64h per year"
+        },
+        "title": {
+          "fr": "Enseignement",
+          "en": "Teaching"
+        },
+        "subtitle": {
+          "fr": "Automatique et électronique.",
+          "en": "control theory and electrical engineering."
+        }
+      },
+      {
+        "date": {
+          "fr": "2018 - 5 mois",
+          "en": "2018 - 5 months"
+        },
+        "location": {
+          "fr": "Laboratoire IMS",
+          "en": "IMS laboratory"
+        },
+        "title": {
+          "fr": "Stage en automatique",
+          "en": "Internship"
+        },
+        "subtitle": {
+          "fr": "Design et analyse d'algorithmes d'évitement d'obstacles pour les véhicules autonomes.",
+          "en": "Design/analysis of path planning algorithms for autonomous vehicles."
+        },
+        "list": {
+          "fr": [
+            "Planification de trajectoire (courbes de Bézier et champs de potentiels)",
+            "Optimisation sous contraintes (Lagrangien et Newton-Raphson)"
+          ],
+          "en": [
+            "Path planning computation using potential field methods and Bezier curves",
+            "Constrains optimization using Lagrangian and Newton-like methods"
+          ]
+        }
       }
     ]
   }
