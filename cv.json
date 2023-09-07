@@ -1,0 +1,20 @@
+[
+    {
+        "title": {
+            "en": "Education",
+            "fr": "Éducation"
+        },
+        "items": [
+            {
+                "date":{
+                    "en": "01-12-2022 to present day",
+                    "fr": "01-12-2022 à aujourd'hui"
+                },
+                "title":{
+                    "en": "Automation engineer",
+                    "fr": "Ingénieur en automatique"
+                } 
+            }
+        ]
+    }
+]
