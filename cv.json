@@ -23,8 +23,18 @@
           "en": "Glycemia modeling and regulation in type-1 diabetes."
         },
         "list": {
-          "fr": ["Contrôle robuste", "Simulations pré-cliniques", "Modèles métaboliques incertains", "Analyses pires-cas"],
-          "en": ["Robust control", "In silico simulations", "Uncertain metabolic models", "Analyse pires-cas"]
+          "fr": [
+            "Contrôle robuste",
+            "Simulations pré-cliniques",
+            "Modèles métaboliques incertains",
+            "Analyses pires-cas"
+          ],
+          "en": [
+            "Robust control",
+            "In silico simulations",
+            "Uncertain metabolic models",
+            "Analyse pires-cas"
+          ]
         }
       },
       {
@@ -85,7 +95,7 @@
   },
   {
     "title": {
-      "fr": "Expérience profesionelle",
+      "fr": "Expérience professionnelle",
       "en": "Professional experience"
     },
     "items": [
@@ -107,8 +117,20 @@
           "en": "Modelisation and control of a kite destined for boat traction."
         },
         "list": {
-          "fr": ["Contrôle commande", "Gestion de base de données", "Mesures expérimentales", "Interfaces WEB", "Électronique embarquée"],
-          "en": ["System control", "Database management", "Experimental measurements", "WEB interfaces", "onboard electronics"]
+          "fr": [
+            "Contrôle commande",
+            "Gestion de base de données",
+            "Mesures expérimentales",
+            "Interfaces WEB",
+            "Électronique embarquée"
+          ],
+          "en": [
+            "System control",
+            "Database management",
+            "Experimental measurements",
+            "WEB interfaces",
+            "onboard electronics"
+          ]
         }
       },
       {
@@ -155,6 +177,24 @@
             "Path planning computation using potential field methods and Bezier curves",
             "Constrains optimization using Lagrangian and Newton-like methods"
           ]
+        }
+      },
+      {
+        "date": {
+          "fr": "2017 - 2 mois",
+          "en": "2017 - 2 months"
+        },
+        "location": {
+          "fr": "Laboratoire CENBG",
+          "en": "CENBG laboratory"
+        },
+        "title": {
+          "fr": "Stage en éléctronique",
+          "en": "Internship"
+        },
+        "subtitle": {
+          "fr": "Conception et réalisation (PCB) d'un séquenceur de tensions 0-600 V.",
+          "en": "Design, conception and adjustments of a 600V electrical switch."
         }
       }
     ]
