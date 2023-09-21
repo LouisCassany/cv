@@ -8,11 +8,13 @@ body {
     size: A4;
   }
   body {
-    /* width: 21cm;
-    height: 29.4cm;
-    margin: 1.4cm;
-    margin-top: 1.5cm;
-    margin-bottom: 0; */
+    font-size: small;
+  }
+  hr {
+    margin-bottom: 10px !important;
+  }
+  .item {
+    margin-bottom: 10px !important;
   }
   nav {
     display: none;

@@ -23,18 +23,8 @@
           "en": "Glycemia modeling and regulation in type-1 diabetes."
         },
         "list": {
-          "fr": [
-            "Contrôle robuste",
-            "Simulations pré-cliniques",
-            "Modèles métaboliques incertains",
-            "Analyses pires-cas"
-          ],
-          "en": [
-            "Robust control",
-            "In silico simulations",
-            "Uncertain metabolic models",
-            "Analyse pires-cas"
-          ]
+          "fr": ["Contrôle robuste", "Simulations pré-cliniques", "Modèles métaboliques incertains", "Analyses pires-cas"],
+          "en": ["Robust control", "In silico simulations", "Uncertain metabolic models", "Analyse pires-cas"]
         }
       },
       {
@@ -117,20 +107,8 @@
           "en": "Modelisation and control of a kite destined for boat traction."
         },
         "list": {
-          "fr": [
-            "Contrôle commande",
-            "Gestion de base de données",
-            "Mesures expérimentales",
-            "Interfaces WEB",
-            "Électronique embarquée"
-          ],
-          "en": [
-            "System control",
-            "Database management",
-            "Experimental measurements",
-            "WEB interfaces",
-            "onboard electronics"
-          ]
+          "fr": ["Contrôle commande", "Gestion de base de données", "Mesures expérimentales", "Interfaces WEB", "Électronique embarquée"],
+          "en": ["System control", "Database management", "Experimental measurements", "WEB interfaces", "onboard electronics"]
         }
       },
       {
@@ -195,6 +173,116 @@
         "subtitle": {
           "fr": "Conception et réalisation (PCB) d'un séquenceur de tensions 0-600 V.",
           "en": "Design, conception and adjustments of a 600V electrical switch."
+        }
+      },
+      {
+        "date": {
+          "fr": "2015 - 5 mois",
+          "en": "2015 - 5 months"
+        },
+        "location": {
+          "fr": "CERN",
+          "en": "CERN"
+        },
+        "title": {
+          "fr": "Stage en éléctronique",
+          "en": "Technical student programme"
+        },
+        "subtitle": {
+          "fr": "Mesure et ajustements sur un générateur PFN utilisé sur le Proton Synchrotron Booster.",
+          "en": "Electrical measurements and adjustments on a generator for the Proton Synchrotron Booster"
+        }
+      }
+    ]
+  },
+  {
+    "title": {
+      "fr": "Compétences",
+      "en": "Technical skills"
+    },
+    "items": [
+      {
+        "title": {
+          "fr": "Automatique",
+          "en": "Control theory"
+        },
+        "subtitle": {
+          "fr": "Automatique générale, commande robuste H∞, identification et modélisation de systèmes, modélisation d'incertitudes.",
+          "en": "General control theory, robust control (QFT, CRONE, H∞), system identification and modeling, uncertainty modelling."
+        }
+      },
+      {
+        "title": {
+          "fr": "Informatique",
+          "en": "Computing"
+        },
+        "subtitle": {
+          "fr": "C, Python, Arduino/Raspberry, Matlab, Simulink, LaTeX, technologies web (NodeJS, JavaScript/CSS/HTML), linux, Git.",
+          "en": "C, Python, Arduino/Raspberry, Matlab, Simulink, LaTeX, web technologies (NodeJS, JavaScript/CSS/HTML), linux, Git"
+        }
+      },
+      {
+        "title": {
+          "fr": "Électronique",
+          "en": "Electronics"
+        },
+        "subtitle": {
+          "fr": "Conception de PCB, mesures électriques, utilisation de micro-contrôleurs.",
+          "en": "PCB conception, electrical measurements, microcontroller operation and programmation."
+        }
+      },
+      {
+        "title": {
+          "fr": "Langues",
+          "en": "Languages"
+        },
+        "subtitle": {
+          "fr": "Français (langue maternelle), anglais courant (score TOEIC de 965).",
+          "en": "French mother tongue, fluent English (TOEIC score of 965)."
+        }
+      },
+      {
+        "title": {
+          "fr": "Loisirs et intérêts",
+          "en": "Interests and hobbies"
+        },
+        "list": {
+          "fr": [
+            "Scoutisme : 2004--2020, chef et responsable de camps d'été pendant 4 ans, référent national pédagogique pendant 3 ans, éditeur en chef de la newsletter nationale pédagogique pendant 1 an",
+            "Applications web diverses, projets raspberry pi",
+            "VTT, randonnée, photographie ornithologique"
+          ],
+          "en": [
+            "Boy scout: 2004--2020, chief and summer camp supervisor for 4 years, national pedagogical referent for 3 years, editor-in-chief for the national pedagogical newsletter (one year)",
+            "Web development/applications, raspberry pi projects",
+            "Biking, hiking, ornithology photography"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "title": {
+      "fr": "Publications",
+      "en": "Publications"
+    },
+    "items": [
+      {
+        "list": {
+          "fr": [
+            "L. Cassany et al. A Robust Control solution for Glycaemia Regulation of Type-1 Diabetes Mellitus. In IEEE European Control Conference, IEEE European Control Conference, Rotterdam, Netherlands, June 2021. IEEE",
+            "L. Cassany et al. A Robust H∞ Control Approach for Blood Glucose Regulation in Type-1 Diabetes. In IFAC, editor, 11th IFAC Symposium on Biological and Medical Systems, volume - of 11th IFAC Symposium on Biological and Medical Systems, Ghent, Belgium, Sept. 2021. IFAC, IFAC",
+            "J. Moreau, P. Melchior, S. Victor, L. Cassany, et al. Reactive path planning in intersection for autonomous vehicle. In 9th IFAC Symposium on Advances in Automotive Control AAC 2019, volume 52, pages 109–114, Orléans, France, June 2019. Elsevier.",
+            "L. Olçomendy, L. Cassany, A. Pirog, R. Franco, et al. Towards the Integration of an Islet- Based Biosensor in Closed-Loop Therapies for Patients With Type 1 Diabetes. Frontiers in Endocrinology, 13, Apr. 2022.",
+            "L. Olçomendy, A. Pirog, F. Lebreton, M. Jaffredo, L. Cassany, et al. Integrating an Islet- Based Biosensor in the Artificial Pancreas: In Silico Proof-of-Concept. IEEE Transactions on Biomedical Engineering, 69(2):899–909, Feb. 2022.,"
+          ],
+          "en": [
+            "L. Cassany et al. A Robust Control solution for Glycaemia Regulation of Type-1 Diabetes Mellitus. In IEEE European Control Conference, IEEE European Control Conference, Rotterdam, Netherlands, June 2021. IEEE",
+            "L. Cassany et al. A Robust H∞ Control Approach for Blood Glucose Regulation in Type-1 Diabetes. In IFAC, editor, 11th IFAC Symposium on Biological and Medical Systems, volume - of 11th IFAC Symposium on Biological and Medical Systems, Ghent, Belgium, Sept. 2021. IFAC, IFAC",
+            "J. Moreau, P. Melchior, S. Victor, L. Cassany, et al. Reactive path planning in intersection for autonomous vehicle. In 9th IFAC Symposium on Advances in Automotive Control AAC 2019, volume 52, pages 109–114, Orléans, France, June 2019. Elsevier.",
+            "L. Olçomendy, L. Cassany, A. Pirog, R. Franco, et al. Towards the Integration of an Islet- Based Biosensor in Closed-Loop Therapies for Patients With Type 1 Diabetes. Frontiers in Endocrinology, 13, Apr. 2022.",
+            "L. Olçomendy, A. Pirog, F. Lebreton, M. Jaffredo, L. Cassany, et al. Integrating an Islet- Based Biosensor in the Artificial Pancreas: In Silico Proof-of-Concept. IEEE Transactions on Biomedical Engineering, 69(2):899–909, Feb. 2022.,"
+          ]
         }
       }
     ]
