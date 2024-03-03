@@ -23,8 +23,18 @@
           "en": "Glycemia modeling and regulation in type-1 diabetes."
         },
         "list": {
-          "fr": ["Contrôle robuste", "Simulations pré-cliniques", "Modèles métaboliques incertains", "Analyses pires-cas"],
-          "en": ["Robust control", "In silico simulations", "Uncertain metabolic models", "Analyse pires-cas"]
+          "fr": [
+            "Contrôle robuste",
+            "Simulations pré-cliniques",
+            "Modèles métaboliques incertains",
+            "Analyses pires-cas"
+          ],
+          "en": [
+            "Robust control",
+            "In silico simulations",
+            "Uncertain metabolic models",
+            "Analyse pires-cas"
+          ]
         }
       },
       {
@@ -107,8 +117,20 @@
           "en": "Modelisation and control of a kite destined for boat traction."
         },
         "list": {
-          "fr": ["Contrôle commande", "Gestion de base de données", "Mesures expérimentales", "Interfaces WEB", "Électronique embarquée"],
-          "en": ["System control", "Database management", "Experimental measurements", "WEB interfaces", "onboard electronics"]
+          "fr": [
+            "Contrôle commande",
+            "Gestion de base de données",
+            "Mesures expérimentales",
+            "Interfaces WEB",
+            "Électronique embarquée"
+          ],
+          "en": [
+            "System control",
+            "Database management",
+            "Experimental measurements",
+            "WEB interfaces",
+            "onboard electronics"
+          ]
         }
       },
       {
@@ -248,12 +270,12 @@
         },
         "list": {
           "fr": [
-            "Scoutisme : 2004--2020, chef et responsable de camps d'été pendant 4 ans, référent national pédagogique pendant 3 ans, éditeur en chef de la newsletter nationale pédagogique pendant 1 an",
+            "Scoutisme : 2004-2020, chef et responsable de camps d'été pendant 4 ans, référent national pédagogique pendant 3 ans, éditeur en chef de la newsletter nationale pédagogique pendant 1 an",
             "Applications web diverses, projets raspberry pi",
             "VTT, randonnée, photographie ornithologique"
           ],
           "en": [
-            "Boy scout: 2004--2020, chief and summer camp supervisor for 4 years, national pedagogical referent for 3 years, editor-in-chief for the national pedagogical newsletter (one year)",
+            "Boy scout: 2004-2020, chief and summer camp supervisor for 4 years, national pedagogical referent for 3 years, editor-in-chief for the national pedagogical newsletter (one year)",
             "Web development/applications, raspberry pi projects",
             "Biking, hiking, ornithology photography"
           ]

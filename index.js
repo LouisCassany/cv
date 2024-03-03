@@ -22,19 +22,19 @@ const html = `
 </head>
 
 <body>
-  <div class= "flex justify-center items-center md:p-10 my-8">
-    <div class="flex space-x-16">
-      <img src="./photo_CV.png" class="h-36 rounded-lg shadow-xl" />
-      <div class="flex flex-col justify-between items-end">
-        <span class="text-4xl text-blue-900"> Louis CASSANY </span>
-        <span class="text-xl text-blue-900 font-bold"> Docteur en automatique </span>
-        <span class="underline"> cassany.louis@gmail.com </span>
-        <span> (+33) 6 45 32 03 41</span>
-        <span> 28 ans, permis B</span>
-      </div>
+  <div class="flex justify-center items-center md:p-10 my-8">
+  <div class="flex sm:space-x-16 justify-center">
+    <img src="./photo_CV.png" class="h-36 rounded-lg shadow-xl" />
+    <div class="flex flex-col justify-between items-end p-2">
+      <span class="text-2xl sm:text-4xl text-blue-900"> Louis CASSANY </span>
+      <span class="text-lg sm:text-xl text-blue-900 font-bold"> Docteur en automatique </span>
+      <span class="underline"> cassany.louis@gmail.com </span>
+      <span> (+33) 6 45 32 03 41</span>
+      <span> 28 ans, permis B</span>
     </div>
   </div>
-  <div class="columns-2 px-8 md:w-3/4 mx-auto pb-8">
+  </div>
+  <div class="lg:columns-2 px-8 xl:w-3/4 mx-auto pb-8 xl:text-xl">
     ${education}
     ${experience}
     ${skills}
@@ -44,22 +44,22 @@ const html = `
 
 </html>`;
 
-await writeFileSync("./index.html", html);
+writeFileSync("./index.html", html);
 
 function add_section(section, lang) {
-  let html = ``;
+  let html = `<div class="mt-8">`;
   let flag = false;
 
   for (const item of section.items) {
     html += `<div class="flex flex-col w-full mb-4 break-inside-avoid-column md:px-16 px-4 item">`;
     if (!flag) {
-      html += `<h1 class="text-2xl text-blue-900 mx-auto font-bold text-center">${section.title[lang]}</h1>`;
+      html += `<h1 class="lg:text-3xl text-2xl text-blue-900 mx-auto font-bold text-center">${section.title[lang]}</h1>`;
       html += `<hr class="w-48 mx-auto h-[3px] bg-blue-900 mb-4"/>`;
       flag = true;
     }
     if (item.date || item.title)
       html += `<div class="flex justify-between items-center">
-                <h2 class="text-lg font-bold text-blue-900">${item.title[lang]}</h2>
+                <h2 class="lg:text-xl text-lg font-bold text-blue-900">${item.title[lang]}</h2>
                 ${item.date ? `<span class="text-sm">${item.date[lang]}</span>` : ""}
               </div>`;
     if (item.location) html += `<div class="font-bold">${item.location[lang]}</div>`;
@@ -73,6 +73,7 @@ function add_section(section, lang) {
     }
     html += "</div>";
   }
+  html += `</div>`;
 
   return html;
 }
