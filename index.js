@@ -34,7 +34,7 @@ const html = `
     </div>
   </div>
   </div>
-  <div class="lg:columns-2 px-8 xl:w-3/4 mx-auto pb-8 xl:text-xl">
+  <div class="lg:columns-2 px-8 xl:w-9/12 mx-auto pb-8 xl:text-xl">
     ${education}
     ${experience}
     ${skills}
@@ -47,14 +47,14 @@ const html = `
 writeFileSync("./index.html", html);
 
 function add_section(section, lang) {
-  let html = `<div class="mt-8">`;
+  let html = `<div>`;
   let flag = false;
 
   for (const item of section.items) {
     html += `<div class="flex flex-col w-full mb-4 break-inside-avoid-column md:px-16 px-4 item">`;
     if (!flag) {
-      html += `<h1 class="lg:text-3xl text-2xl text-blue-900 mx-auto font-bold text-center">${section.title[lang]}</h1>`;
-      html += `<hr class="w-48 mx-auto h-[3px] bg-blue-900 mb-4"/>`;
+      html += `<h1 class="lg:text-2xl text-2xl text-blue-900  font-bold">${section.title[lang]}</h1>`;
+      html += `<hr class="w-48  h-[3px] bg-blue-900 mb-4"/>`;
       flag = true;
     }
     if (item.date || item.title)
@@ -62,7 +62,7 @@ function add_section(section, lang) {
                 <h2 class="lg:text-xl text-lg font-bold text-blue-900">${item.title[lang]}</h2>
                 ${item.date ? `<span class="text-sm">${item.date[lang]}</span>` : ""}
               </div>`;
-    if (item.location) html += `<div class="font-bold">${item.location[lang]}</div>`;
+    if (item.location) html += `<div class="font-bold text-lg">${item.location[lang]}</div>`;
     if (item.subtitle) html += `<div class="whitespace-pre-line">${item.subtitle[lang]}</div>`;
     if (item.list) {
       html += `<ul class="marker:text-blue-900 list-inside list-disc">`;

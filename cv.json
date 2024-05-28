@@ -19,8 +19,8 @@
           "en": "PhD in control engineering"
         },
         "subtitle": {
-          "fr": "Modélisation et régulation de la glycémie pour le diabète de type 1.",
-          "en": "Glycemia modeling and regulation in type-1 diabetes."
+          "fr": "Modélisation et régulation de la glycémie pour le diabète de type 1",
+          "en": "Glycemia modeling and regulation in type-1 diabetes"
         },
         "list": {
           "fr": [
@@ -52,7 +52,7 @@
         },
         "subtitle": {
           "fr": "Automatique et Mécatronique pour l'Automobile, l'Aéronautique et le Spatial",
-          "en": "Automatic controls and Mechatronics applied for Automotive, Aeronautics and Space sectors."
+          "en": "Automatic controls and Mechatronics applied for Automotive, Aeronautics and Space sectors"
         }
       },
       {
@@ -69,8 +69,8 @@
           "en": "EEA bachelor's degree"
         },
         "subtitle": {
-          "fr": "Électronique, Életrotechnique et Automatique.",
-          "en": "Electrical engineering and automatic control."
+          "fr": "Électronique, Életrotechnique et Automatique",
+          "en": "Electrical engineering and automatic control"
         }
       },
       {
@@ -113,8 +113,8 @@
           "en": "Control engineer"
         },
         "subtitle": {
-          "fr": "Modélisation et contrôle d'une aile de kite destinée à la traction de navires.",
-          "en": "Modelisation and control of a kite destined for boat traction."
+          "fr": "Modélisation et contrôle d'une aile de kite destinée à la traction de navires",
+          "en": "Modelisation and control of a kite destined for boat traction"
         },
         "list": {
           "fr": [
@@ -147,8 +147,8 @@
           "en": "Teaching"
         },
         "subtitle": {
-          "fr": "Automatique et électronique.",
-          "en": "control theory and electrical engineering."
+          "fr": "Automatique et électronique, niveau License/Master",
+          "en": "control theory and electrical engineering for bachelors/masters"
         }
       },
       {
@@ -165,8 +165,8 @@
           "en": "Internship"
         },
         "subtitle": {
-          "fr": "Design et analyse d'algorithmes d'évitement d'obstacles pour les véhicules autonomes.",
-          "en": "Design/analysis of path planning algorithms for autonomous vehicles."
+          "fr": "Design et analyse d'algorithmes d'évitement d'obstacles pour les véhicules autonomes",
+          "en": "Design/analysis of path planning algorithms for autonomous vehicles"
         },
         "list": {
           "fr": [
@@ -193,8 +193,8 @@
           "en": "Internship"
         },
         "subtitle": {
-          "fr": "Conception et réalisation (PCB) d'un séquenceur de tensions 0-600 V.",
-          "en": "Design, conception and adjustments of a 600V electrical switch."
+          "fr": "Conception et réalisation (PCB) d'un séquenceur de tensions 0-600 V",
+          "en": "Design, conception and adjustments of a 600V electrical switch"
         }
       },
       {
@@ -211,7 +211,7 @@
           "en": "Technical student programme"
         },
         "subtitle": {
-          "fr": "Mesure et ajustements sur un générateur PFN utilisé sur le Proton Synchrotron Booster.",
+          "fr": "Mesure et ajustements sur un générateur PFN utilisé sur le Proton Synchrotron Booster",
           "en": "Electrical measurements and adjustments on a generator for the Proton Synchrotron Booster"
         }
       }
@@ -229,8 +229,8 @@
           "en": "Control theory"
         },
         "subtitle": {
-          "fr": "Automatique générale, commande robuste H∞, identification et modélisation de systèmes, modélisation d'incertitudes.",
-          "en": "General control theory, robust control (QFT, CRONE, H∞), system identification and modeling, uncertainty modelling."
+          "fr": "Automatique générale, commande robuste H∞, identification et modélisation de systèmes, modélisation d'incertitudes",
+          "en": "General control theory, robust control (QFT, CRONE, H∞), system identification and modeling, uncertainty modelling"
         }
       },
       {
@@ -239,8 +239,8 @@
           "en": "Computing"
         },
         "subtitle": {
-          "fr": "C, Python, Arduino/Raspberry, Matlab, Simulink, LaTeX, technologies web (NodeJS, JavaScript/CSS/HTML), linux, Git.",
-          "en": "C, Python, Arduino/Raspberry, Matlab, Simulink, LaTeX, web technologies (NodeJS, JavaScript/CSS/HTML), linux, Git"
+          "fr": "C, Python, Rust, Matlab/Simulink, LaTeX, web (TypeScript, Vue, NodeJS, HTML/CSS etc.), Arduino/Raspberry, linux, Git",
+          "en": "C, Python, Rust, Matlab/Simulink, LaTeX, web (TypeScript, Vue, NodeJS, HTML/CSS etc.), Arduino/Raspberry, linux, Git"
         }
       },
       {
@@ -249,8 +249,8 @@
           "en": "Electronics"
         },
         "subtitle": {
-          "fr": "Conception de PCB, mesures électriques, utilisation de micro-contrôleurs.",
-          "en": "PCB conception, electrical measurements, microcontroller operation and programmation."
+          "fr": "Conception de PCB, mesures électriques, utilisation de micro-contrôleurs",
+          "en": "PCB conception, electrical measurements, microcontroller operation and programmation"
         }
       },
       {
@@ -259,8 +259,8 @@
           "en": "Languages"
         },
         "subtitle": {
-          "fr": "Français (langue maternelle), anglais courant (score TOEIC de 965).",
-          "en": "French mother tongue, fluent English (TOEIC score of 965)."
+          "fr": "Français (langue maternelle), anglais courant (score TOEIC de 965)",
+          "en": "French mother tongue, fluent English (TOEIC score of 965)"
         }
       },
       {
@@ -294,15 +294,15 @@
           "fr": [
             "L. Cassany et al. A Robust Control solution for Glycaemia Regulation of Type-1 Diabetes Mellitus. In IEEE European Control Conference, IEEE European Control Conference, Rotterdam, Netherlands, June 2021. IEEE",
             "L. Cassany et al. A Robust H∞ Control Approach for Blood Glucose Regulation in Type-1 Diabetes. In IFAC, editor, 11th IFAC Symposium on Biological and Medical Systems, volume - of 11th IFAC Symposium on Biological and Medical Systems, Ghent, Belgium, Sept. 2021. IFAC, IFAC",
-            "J. Moreau, P. Melchior, S. Victor, L. Cassany, et al. Reactive path planning in intersection for autonomous vehicle. In 9th IFAC Symposium on Advances in Automotive Control AAC 2019, volume 52, pages 109–114, Orléans, France, June 2019. Elsevier.",
-            "L. Olçomendy, L. Cassany, A. Pirog, R. Franco, et al. Towards the Integration of an Islet- Based Biosensor in Closed-Loop Therapies for Patients With Type 1 Diabetes. Frontiers in Endocrinology, 13, Apr. 2022.",
+            "J. Moreau, P. Melchior, S. Victor, L. Cassany, et al. Reactive path planning in intersection for autonomous vehicle. In 9th IFAC Symposium on Advances in Automotive Control AAC 2019, volume 52, pages 109–114, Orléans, France, June 2019. Elsevier",
+            "L. Olçomendy, L. Cassany, A. Pirog, R. Franco, et al. Towards the Integration of an Islet- Based Biosensor in Closed-Loop Therapies for Patients With Type 1 Diabetes. Frontiers in Endocrinology, 13, Apr. 2022",
             "L. Olçomendy, A. Pirog, F. Lebreton, M. Jaffredo, L. Cassany, et al. Integrating an Islet- Based Biosensor in the Artificial Pancreas: In Silico Proof-of-Concept. IEEE Transactions on Biomedical Engineering, 69(2):899–909, Feb. 2022.,"
           ],
           "en": [
             "L. Cassany et al. A Robust Control solution for Glycaemia Regulation of Type-1 Diabetes Mellitus. In IEEE European Control Conference, IEEE European Control Conference, Rotterdam, Netherlands, June 2021. IEEE",
             "L. Cassany et al. A Robust H∞ Control Approach for Blood Glucose Regulation in Type-1 Diabetes. In IFAC, editor, 11th IFAC Symposium on Biological and Medical Systems, volume - of 11th IFAC Symposium on Biological and Medical Systems, Ghent, Belgium, Sept. 2021. IFAC, IFAC",
-            "J. Moreau, P. Melchior, S. Victor, L. Cassany, et al. Reactive path planning in intersection for autonomous vehicle. In 9th IFAC Symposium on Advances in Automotive Control AAC 2019, volume 52, pages 109–114, Orléans, France, June 2019. Elsevier.",
-            "L. Olçomendy, L. Cassany, A. Pirog, R. Franco, et al. Towards the Integration of an Islet- Based Biosensor in Closed-Loop Therapies for Patients With Type 1 Diabetes. Frontiers in Endocrinology, 13, Apr. 2022.",
+            "J. Moreau, P. Melchior, S. Victor, L. Cassany, et al. Reactive path planning in intersection for autonomous vehicle. In 9th IFAC Symposium on Advances in Automotive Control AAC 2019, volume 52, pages 109–114, Orléans, France, June 2019. Elsevier",
+            "L. Olçomendy, L. Cassany, A. Pirog, R. Franco, et al. Towards the Integration of an Islet- Based Biosensor in Closed-Loop Therapies for Patients With Type 1 Diabetes. Frontiers in Endocrinology, 13, Apr. 2022",
             "L. Olçomendy, A. Pirog, F. Lebreton, M. Jaffredo, L. Cassany, et al. Integrating an Islet- Based Biosensor in the Artificial Pancreas: In Silico Proof-of-Concept. IEEE Transactions on Biomedical Engineering, 69(2):899–909, Feb. 2022.,"
           ]
         }
