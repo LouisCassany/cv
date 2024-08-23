@@ -30,21 +30,47 @@ function generate_html(lang, page_name) {
   <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body class="pt-8">
-<a class="font-mono text-red-600 hover:text-red-900 underline absolute top-8 right-8" href="${href}">${link_text}</a>
+<style>
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 1cm 0cm;
+    }
+
+    .print {
+        display: revert;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    /* h1,
+    h2,
+    h3,
+    h4,
+    caption {
+        page-break-after: avoid;
+    } */
+
+}
+</style>
+
+<body>
+<a class="no-print font-mono text-red-600 hover:text-red-900 underline absolute top-2 right-4" href="${href}">${link_text}</a>
 <div class="flex justify-center items-center md:p-10 my-8 px-8">
   <div class="flex sm:space-x-16 justify-center">
     <img src="./photo_cv.jpg" class="h-36 rounded-lg shadow-xl" />
     <div class="flex flex-col justify-between items-end p-2">
       <span class="text-2xl sm:text-4xl text-blue-900"> Louis CASSANY </span>
       <span class="text-lg sm:text-xl text-blue-900 font-bold text-right"> ${title} </span>
-      <span class="underline"> cassany.louis@gmail.com </span>
+      <span> cassany.louis@gmail.com </span>
       <span> (+33) 6 45 32 03 41</span>
       <span>${infos}</span>
     </div>
   </div>
   </div>
-  <div class="lg:columns-2 px-8 xl:w-9/12 mx-auto pb-8 xl:text-xl">
+  <div class="print:columns-2 lg:columns-2 px-8 xl:w-9/12 mx-auto pb-8 xl:text-xl" id="cv">
     ${education}
     ${experience}
     ${skills}
@@ -67,7 +93,7 @@ function add_section(section, lang) {
     html += `<div class="flex flex-col w-full mb-4 break-inside-avoid-column md:px-16 px-4 item">`;
     if (!flag) {
       html += `<h1 class="lg:text-2xl text-2xl text-blue-900  font-bold">${section.title[lang]}</h1>`;
-      html += `<hr class="w-48 h-[3px] bg-blue-900 mb-4"/>`;
+      html += `<hr class="h-[3px] bg-blue-900 mb-4 border-0"/>`;
       flag = true;
     }
     if (item.date || item.title)
@@ -75,7 +101,7 @@ function add_section(section, lang) {
                 <h2 class="lg:text-xl text-lg font-bold text-blue-900">${item.title[lang]}</h2>
                 ${item.date ? `<span class="text-sm">${item.date[lang]}</span>` : ""}
               </div>`;
-    if (item.location) html += `<div class="font-bold text-lg">${item.location[lang]}</div>`;
+    if (item.location) html += `<div class="font-bold">${item.location[lang]}</div>`;
     if (item.subtitle) html += `<div class="whitespace-pre-line">${item.subtitle[lang]}</div>`;
     if (item.list) {
       html += `<ul class="marker:text-blue-900 list-inside list-disc">`;
