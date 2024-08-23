@@ -3,12 +3,21 @@ import fs from "fs";
 
 const cv = JSON.parse(fs.readFileSync("./cv.json", "utf-8"));
 
-let education = add_section(cv[0], "fr");
-let experience = add_section(cv[1], "fr");
-let skills = add_section(cv[2], "fr");
-let publications = add_section(cv[3], "fr");
+generate_html("fr", "./fr.html");
+generate_html("en", "./en.html");
 
-const html = `
+function generate_html(lang, page_name) {
+  const education = add_section(cv[0], lang);
+  const experience = add_section(cv[1], lang);
+  const skills = add_section(cv[2], lang);
+  const publications = add_section(cv[3], lang);
+
+  const title = lang == "fr" ? "Docteur en automatique" : "Control systems engineer (PhD)";
+  const infos = lang == "fr" ? "29 ans, permis B, Le Teich" : "29 years old, Le Teich (France)";
+  const link_text = lang == "fr" ? "English version" : "Version française";
+  const href = lang == "fr" ? "en.html" : "fr.html";
+
+  let html = `
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -21,16 +30,17 @@ const html = `
   <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
-  <div class="flex justify-center items-center md:p-10 my-8">
+<body class="pt-8">
+<a class="font-mono text-red-600 hover:text-red-900 underline absolute top-8 right-8" href="${href}">${link_text}</a>
+<div class="flex justify-center items-center md:p-10 my-8 px-8">
   <div class="flex sm:space-x-16 justify-center">
     <img src="./photo_CV.png" class="h-36 rounded-lg shadow-xl" />
     <div class="flex flex-col justify-between items-end p-2">
       <span class="text-2xl sm:text-4xl text-blue-900"> Louis CASSANY </span>
-      <span class="text-lg sm:text-xl text-blue-900 font-bold"> Docteur en automatique </span>
+      <span class="text-lg sm:text-xl text-blue-900 font-bold text-right"> ${title} </span>
       <span class="underline"> cassany.louis@gmail.com </span>
       <span> (+33) 6 45 32 03 41</span>
-      <span> 28 ans, permis B</span>
+      <span>${infos}</span>
     </div>
   </div>
   </div>
@@ -44,7 +54,10 @@ const html = `
 
 </html>`;
 
-writeFileSync("./index.html", html);
+  writeFileSync(page_name, html);
+}
+
+
 
 function add_section(section, lang) {
   let html = `<div>`;
@@ -54,7 +67,7 @@ function add_section(section, lang) {
     html += `<div class="flex flex-col w-full mb-4 break-inside-avoid-column md:px-16 px-4 item">`;
     if (!flag) {
       html += `<h1 class="lg:text-2xl text-2xl text-blue-900  font-bold">${section.title[lang]}</h1>`;
-      html += `<hr class="w-48  h-[3px] bg-blue-900 mb-4"/>`;
+      html += `<hr class="w-48 h-[3px] bg-blue-900 mb-4"/>`;
       flag = true;
     }
     if (item.date || item.title)
