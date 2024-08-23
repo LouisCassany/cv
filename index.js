@@ -34,7 +34,7 @@ function generate_html(lang, page_name) {
 <a class="font-mono text-red-600 hover:text-red-900 underline absolute top-8 right-8" href="${href}">${link_text}</a>
 <div class="flex justify-center items-center md:p-10 my-8 px-8">
   <div class="flex sm:space-x-16 justify-center">
-    <img src="./photo_CV.png" class="h-36 rounded-lg shadow-xl" />
+    <img src="./photo_cv.jpg" class="h-36 rounded-lg shadow-xl" />
     <div class="flex flex-col justify-between items-end p-2">
       <span class="text-2xl sm:text-4xl text-blue-900"> Louis CASSANY </span>
       <span class="text-lg sm:text-xl text-blue-900 font-bold text-right"> ${title} </span>
