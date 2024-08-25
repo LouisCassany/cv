@@ -57,20 +57,23 @@ function generate_html(lang, page_name) {
 </style>
 
 <body>
-<a class="no-print font-mono text-red-600 hover:text-red-900 underline absolute top-2 right-4" href="${href}">${link_text}</a>
-<div class="flex justify-center items-center md:p-10 my-8 px-8">
-  <div class="flex sm:space-x-16 justify-center">
-    <img src="./photo_cv.jpg" class="h-36 rounded-lg shadow-xl" />
-    <div class="flex flex-col justify-between items-end p-2">
-      <span class="text-2xl sm:text-4xl text-blue-900"> Louis CASSANY </span>
-      <span class="text-lg sm:text-xl text-blue-900 font-bold text-right"> ${title} </span>
+<div class="absolute top-2 w-full flex justify-center">
+  <a class="no-print font-mono text-red-600 hover:text-red-900 underline" href="${href}">${link_text}</a>
+</div>
+  <div class="flex justify-center items-center py-4 md:p-10 mt-10 print:mt-0 px-4 sm:px-8">
+  
+
+<div class="flex sm:space-x-16 justify-between w-full sm:justify-center">
+    <img src="./photo_cv.jpg" class="h-24 sm:h-36 rounded-lg shadow-2xl my-auto" />
+    <div class="flex flex-col items-end text-right justify-between print:justify-start">
+      <span class="text-xl sm:text-4xl text-blue-900"> Louis CASSANY </span>
+      <span class="text-md sm:text-xl text-blue-900 font-bold "> ${title} </span>
       <span> cassany.louis@gmail.com </span>
       <span> (+33) 6 45 32 03 41</span>
-      <span>${infos}</span>
     </div>
   </div>
   </div>
-  <div class="print:columns-2 lg:columns-2 px-8 xl:w-9/12 mx-auto pb-8 xl:text-xl" id="cv">
+  <div class="print:columns-2 lg:columns-2 px-4 sm:px-8 xl:w-9/12 mx-auto pb-8 xl:text-xl" id="cv">
     ${education}
     ${experience}
     ${skills}
@@ -90,7 +93,7 @@ function add_section(section, lang) {
   let flag = false;
 
   for (const item of section.items) {
-    html += `<div class="flex flex-col w-full mb-4 break-inside-avoid-column md:px-16 px-4 item">`;
+    html += `<div class="px-2 flex flex-col w-full mb-4 break-inside-avoid-column md:px-16 item">`;
     if (!flag) {
       html += `<h1 class="lg:text-2xl text-2xl text-blue-900  font-bold">${section.title[lang]}</h1>`;
       html += `<hr class="h-[3px] bg-blue-900 mb-4 border-0"/>`;
@@ -99,7 +102,7 @@ function add_section(section, lang) {
     if (item.date || item.title)
       html += `<div class="flex justify-between items-center">
                 <h2 class="lg:text-xl text-lg font-bold text-blue-900">${item.title[lang]}</h2>
-                ${item.date ? `<span class="text-sm">${item.date[lang]}</span>` : ""}
+                ${item.date ? `<span class="text-sm whitespace-nowrap">${item.date[lang]}</span>` : ""}
               </div>`;
     if (item.location) html += `<div class="font-bold">${item.location[lang]}</div>`;
     if (item.subtitle) html += `<div class="whitespace-pre-line">${item.subtitle[lang]}</div>`;
