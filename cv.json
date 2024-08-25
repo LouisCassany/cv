@@ -114,22 +114,22 @@
         },
         "subtitle": {
           "fr": "Modélisation et contrôle d'une aile de kite destinée à la traction de navires",
-          "en": "Modelisation and control of a kite destined for boat traction"
+          "en": "Modelisation and control of a tethered kite for boat traction"
         },
         "list": {
           "fr": [
-            "Contrôle commande",
-            "Gestion de base de données",
-            "Mesures expérimentales",
+            "Contrôle commande et modélisation",
+            "Collaboration avec les partenaires académiques",
+            "Gestion mesures expérimentales, données et capteurs",
             "Interfaces WEB",
             "Électronique embarquée"
           ],
           "en": [
-            "System control",
-            "Database management",
-            "Experimental measurements",
-            "WEB interfaces",
-            "onboard electronics"
+            "System control and modeling",
+            "Collaboration with academic partners",
+            "Management of experimental measurements, data, and sensors",
+            "Servers and web interfaces",
+            "Embedded electronics"
           ]
         }
       },
@@ -148,7 +148,7 @@
         },
         "subtitle": {
           "fr": "Automatique et électronique, niveau License/Master",
-          "en": "control theory and electrical engineering for bachelors/masters"
+          "en": "Control theory and electrical engineering for bachelors/masters"
         }
       },
       {
