@@ -52,7 +52,7 @@
         },
         "subtitle": {
           "fr": "Automatique et Mécatronique pour l'Automobile, l'Aéronautique et le Spatial",
-          "en": "Automatic controls and Mechatronics applied for Automotive, Aeronautics and Space sectors"
+          "en": "Automatic control and Mechatronics applied for Automotive, Aeronautics and Space sectors"
         }
       },
       {
@@ -109,8 +109,8 @@
           "en": "Beyond the Sea"
         },
         "title": {
-          "fr": "Ingénieur en automatique",
-          "en": "Control engineer"
+          "fr": "Ingénieur en automatique et informatique",
+          "en": "Control and software  engineer"
         },
         "subtitle": {
           "fr": "Modélisation et contrôle d'une aile de kite destinée à la traction de navires",
@@ -239,8 +239,8 @@
           "en": "Computing"
         },
         "subtitle": {
-          "fr": "C, Python, Rust, Matlab/Simulink, LaTeX, web (TypeScript, Vue, NodeJS, HTML/CSS etc.), Arduino/Raspberry, linux, Git",
-          "en": "C, Python, Rust, Matlab/Simulink, LaTeX, web (TypeScript, Vue, NodeJS, HTML/CSS etc.), Arduino/Raspberry, linux, Git"
+          "fr": "C, Python, Rust, Golang, Matlab/Simulink, LaTeX, web (TypeScript, Vue, NodeJS, HTML/CSS etc.), Arduino/Raspberry, linux, Git",
+          "en": "C, Python, Rust, Golang, Matlab/Simulink, LaTeX, web (TypeScript, Vue, NodeJS, HTML/CSS etc.), Arduino/Raspberry, linux, Git"
         }
       },
       {

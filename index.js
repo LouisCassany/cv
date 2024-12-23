@@ -13,9 +13,6 @@ function generate_html(lang, page_name) {
   const publications = add_section(cv[3], lang);
 
   const title = lang == "fr" ? "Docteur en automatique" : "Control systems engineer (PhD)";
-  const infos = lang == "fr" ? "29 ans, permis B, Le Teich" : "29 years old, Le Teich (France)";
-  const link_text = lang == "fr" ? "English version" : "Version française";
-  const href = lang == "fr" ? "en.html" : "fr.html";
 
   let html = `
 <!DOCTYPE html>
@@ -57,16 +54,13 @@ function generate_html(lang, page_name) {
 </style>
 
 <body>
-<div class="absolute top-2 w-full flex justify-center">
-  <a class="no-print font-mono text-red-600 hover:text-red-900 underline" href="${href}">${link_text}</a>
-</div>
-  <div class="flex justify-center items-center py-4 md:p-10 mt-10 print:mt-0 px-4 sm:px-8">
+  <div class="flex justify-center items-center py-4 md:p-10 mt-2 print:mt-0 px-4 sm:px-8">
   
 
 <div class="flex sm:space-x-16 justify-between w-full sm:justify-center">
     <img src="./photo_cv.jpg" class="h-24 sm:h-36 rounded-lg shadow-2xl my-auto" />
-    <div class="flex flex-col items-end text-right justify-between print:justify-start">
-      <span class="text-xl sm:text-4xl text-blue-900"> Louis CASSANY </span>
+    <div class="flex flex-col items-end text-right justify-start print:justify-start">
+      <span class="text-xl sm:text-4xl"> Louis CASSANY </span>
       <span class="text-md sm:text-xl text-blue-900 font-bold "> ${title} </span>
       <span> cassany.louis@gmail.com </span>
       <span> (+33) 6 45 32 03 41</span>
@@ -93,9 +87,9 @@ function add_section(section, lang) {
   let flag = false;
 
   for (const item of section.items) {
-    html += `<div class="px-2 flex flex-col w-full mb-4 break-inside-avoid-column md:px-16 item">`;
+    html += `<div class="px-2 flex flex-col w-full mb-4 break-inside-avoid-column md:px-8 item mt-4">`;
     if (!flag) {
-      html += `<h1 class="lg:text-2xl text-2xl text-blue-900  font-bold">${section.title[lang]}</h1>`;
+      html += `<h1 class="lg:text-2xl text-2xl font-bold">${section.title[lang]}</h1>`;
       html += `<hr class="h-[3px] bg-blue-900 mb-4 border-0"/>`;
       flag = true;
     }
