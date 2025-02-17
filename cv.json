@@ -118,18 +118,18 @@
         },
         "list": {
           "fr": [
-            "Contrôle commande et modélisation",
+            "Contrôle commande (suivi de trajectoire) et modélisation d'une aile de kite",
             "Collaboration avec les partenaires académiques",
-            "Gestion mesures expérimentales, données et capteurs",
-            "Interfaces WEB",
-            "Électronique embarquée"
+            "Gestion des mesures expérimentales, communication entre systèmes et capteurs",
+            "Développement de serveurs et d'IHM pour client",
+            "Électronique embarquée, programmation de MCU"
           ],
           "en": [
-            "System control and modeling",
+            "System control (tracking) and modeling of a tethered kite",
             "Collaboration with academic partners",
-            "Management of experimental measurements, data, and sensors",
-            "Servers and web interfaces",
-            "Embedded electronics"
+            "Management of experimental measurements, communication between systems and sensors",
+            "Servers and web interfaces development",
+            "Embedded electronics and MCU programming"
           ]
         }
       },
@@ -171,11 +171,11 @@
         "list": {
           "fr": [
             "Planification de trajectoire (courbes de Bézier et champs de potentiels)",
-            "Optimisation sous contraintes (Lagrangien et Newton-Raphson)"
+            "Optimisation sous contraintes (Lagrangien)"
           ],
           "en": [
             "Path planning computation using potential field methods and Bezier curves",
-            "Constrains optimization using Lagrangian and Newton-like methods"
+            "Constrains optimization using Lagrangian"
           ]
         }
       },
@@ -229,8 +229,18 @@
           "en": "Control theory"
         },
         "subtitle": {
-          "fr": "Automatique générale, commande robuste H∞, identification et modélisation de systèmes, modélisation d'incertitudes",
-          "en": "General control theory, robust control (QFT, CRONE, H∞), system identification and modeling, uncertainty modelling"
+          "fr": "Automatique générale, commande robuste H∞, identification et modélisation de systèmes, modélisation d'incertitudes, contrôle commande",
+          "en": "General control theory, robust control (QFT, CRONE, H∞), system identification and modeling, uncertainty modelling, command control"
+        }
+      },
+      {
+        "title": {
+          "fr": "Technologies WEB",
+          "en": "WEB technologies"
+        },
+        "subtitle": {
+          "fr": "Frontend (TypeScript, React/Vue, HTML/CSS etc.), Backend (NodeJS, Express, base de données etc.)",
+          "en": "Frontend (TypeScript, React/Vue, HTML/CSS etc.), Backend (NodeJS, Express, database etc.)"
         }
       },
       {
@@ -239,8 +249,8 @@
           "en": "Computing"
         },
         "subtitle": {
-          "fr": "C, Python, Rust, Golang, Matlab/Simulink, LaTeX, web (TypeScript, Vue, NodeJS, HTML/CSS etc.), Arduino/Raspberry, linux, Git",
-          "en": "C, Python, Rust, Golang, Matlab/Simulink, LaTeX, web (TypeScript, Vue, NodeJS, HTML/CSS etc.), Arduino/Raspberry, linux, Git"
+          "fr": "Docker, C/C++, Python, Rust, Golang, Matlab/Simulink, LaTeX, Arduino/Raspberry, linux, bash, Git",
+          "en": "Docker, C/C++, Python, Rust, Golang, Matlab/Simulink, LaTeX, Arduino/Raspberry, linux, bash, Git"
         }
       },
       {
@@ -249,8 +259,8 @@
           "en": "Electronics"
         },
         "subtitle": {
-          "fr": "Conception de PCB, mesures électriques, utilisation de micro-contrôleurs",
-          "en": "PCB conception, electrical measurements, microcontroller operation and programmation"
+          "fr": "Conception de PCB, mesures électriques, utilisation et programmation de micro-contrôleurs, protocole NMEA2000, modbus, CAN",
+          "en": "PCB conception, electrical measurements, microcontroller operation and programmation, NMEA2000 protocol, modbus, CAN"
         }
       },
       {

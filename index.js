@@ -54,7 +54,7 @@ function generate_html(lang, page_name) {
 </style>
 
 <body>
-  <div class="flex justify-center items-center py-2 md:p-10 mt-2 print:mt-0 px-4 sm:px-8">
+  <div class="flex justify-center items-center print:mt-0 px-4 sm:px-8">
   
 
 <div class="flex sm:space-x-16 justify-between w-full sm:justify-center">
@@ -87,7 +87,7 @@ function add_section(section, lang) {
   let flag = false;
 
   for (const item of section.items) {
-    html += `<div class="px-2 flex flex-col w-full my-1 break-inside-avoid-column md:px-8 item">`;
+    html += `<div class="px-2 flex flex-col w-full my-2 md:px-8 item">`;
     if (!flag) {
       html += `<h1 class="lg:text-2xl text-2xl font-bold">${section.title[lang]}</h1>`;
       html += `<hr class="h-[3px] bg-blue-900 mb-4 border-0"/>`;
