@@ -122,14 +122,16 @@
             "Collaboration avec les partenaires académiques",
             "Gestion des mesures expérimentales, communication entre systèmes et capteurs",
             "Développement de serveurs et d'IHM pour client",
-            "Électronique embarquée, programmation de MCU"
+            "Électronique embarquée, programmation de MCU",
+            "Analyse de données, modélisation et traitement de signal"
           ],
           "en": [
             "System control (tracking) and modeling of a tethered kite",
             "Collaboration with academic partners",
             "Management of experimental measurements, communication between systems and sensors",
             "Servers and web interfaces development",
-            "Embedded electronics and MCU programming"
+            "Embedded electronics and MCU programming",
+            "Data analysis, modeling and signal processing"
           ]
         }
       },
@@ -229,8 +231,8 @@
           "en": "Control theory"
         },
         "subtitle": {
-          "fr": "Automatique générale, commande robuste H∞, identification et modélisation de systèmes, modélisation d'incertitudes, contrôle commande",
-          "en": "General control theory, robust control (QFT, CRONE, H∞), system identification and modeling, uncertainty modelling, command control"
+          "fr": "Automatique générale, commande robuste H∞, identification et modélisation de systèmes, modélisation d'incertitudes, contrôle commande, traitement de signal",
+          "en": "General control theory, robust control (QFT, CRONE, H∞), system identification and modeling, uncertainty modelling, command control, signal processing"
         }
       },
       {

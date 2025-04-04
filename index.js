@@ -90,7 +90,7 @@ function add_section(section, lang) {
     html += `<div class="px-2 flex flex-col w-full my-2 md:px-8 item">`;
     if (!flag) {
       html += `<h1 class="lg:text-2xl text-2xl font-bold">${section.title[lang]}</h1>`;
-      html += `<hr class="h-[3px] bg-blue-900 mb-4 border-0"/>`;
+      // html += `<hr class="h-[3px] bg-blue-900 mb-4 border-0"/>`;
       flag = true;
     }
     if (item.date || item.title)
